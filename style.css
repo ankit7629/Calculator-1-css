@@ -1,0 +1,75 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: 20px;
+    
+}
+
+.input{
+    padding: 25px 238px;
+    font-size: 8px;
+    font-weight: bold;
+}
+
+form input{
+    width: 528px;
+    height: 50px;
+    border-radius: 7px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background: transparent;
+    font-size: 20px;
+    cursor: pointer;
+    margin-bottom: 5px;
+    border: 1px solid rgb(204, 202, 202);
+}
+
+
+form .display input{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: right;
+
+}
+
+.row button{
+    margin: 3px 1px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.row button:hover{
+    background-color: blue;
+    color: white;
+    opacity: 0.6;
+}
+
+/* ================== Buttons start============ */
+
+
+.button-l{
+    background-color: rgb(211, 210, 210);
+    width: 146px;
+    height: 32px;
+}
+
+.button-dark{
+    background-color: rgb(211, 210, 210);
+    width: 70px;
+    height: 32px;
+}
+
+.button-light{
+    background-color: rgb(236, 235, 235);
+    width: 70px;
+    height: 32px;
+}
+
+/* =========================== buttons end============ */
+
+
